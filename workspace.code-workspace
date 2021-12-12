@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "..\\bootstrap-5.1.3-examples\\bootstrap-5.1.3-examples\\product"
+    },
+    {
+      "path": "..\\bootstrap-5.1.3-examples\\bootstrap-5.1.3-examples\\pricing"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "ads-predict"
+  }
+}

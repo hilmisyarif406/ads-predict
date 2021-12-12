@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/srcipt.js"></script>
+
+    <title>Ads Recommendation</title>
+  </head>
+  <body>
+    <!-- Heading -->
+    <div
+      class="
+        position-relative
+        overflow-hidden
+        p-3 p-md-5
+        m-md-3
+        text-center
+        banner
+      "
+      id="home"
+    >
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <img src="assets/img/Title.png" alt="" class="img-fluid" />
+        <p class="lead fw-normal">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptate
+          laudantium mollitia numquam, enim tempore eveniet deserunt illo
+          doloribus atque in id iure, a quisquam ducimus sequi nemo aut vero
+        </p>
+        <a
+          href="#category"
+          class="btn btn-outline-dark btn-lg"
+          role="button"
+          aria-pressed="true"
+          >Try It. &nbsp &nbsp<i class="bi bi-arrow-return-left"></i
+        ></a>
+      </div>
+    </div>
+    <!-- End Heading -->
+
+    <!-- Select Category -->
+    <div class="position-relative p-3 p-md-5 m-md-3 bg-dark">
+      <div class="col-md-5 p-lg-5 mx-5" id="category">
+        <h5 style="font-family: 'Poppins' sans-serif; color: white">
+          Category
+        </h5>
+      </div>
+      <div class="container">
+        <div class="col-5">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>-Select Category-</option>
+            <option value="baju">Baju</option>
+            <option value="kemeja">Kemeja</option>
+            <option value="celana">Celana</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Set Time -->
+    <div class="position-relative p-3 p-md-5 m-md-3 bg-light">
+      <div class="col-md-5 p-lg-5 mx-5" id="category">
+        <h5 style="font-family: 'Poppins' sans-serif">Predict Times For</h5>
+      </div>
+      <div class="container">
+        <div class="range-slider">
+          <input
+            class="range-slider__range"
+            type="range"
+            value="1"
+            min="1"
+            max="12"
+          />
+          <span class="range-slider__value">0 </span>
+        </div>
+      </div>
+    </div>
+    <!-- End -->
+
+    <!-- Predict Button-->
+    <div class="position-relative p-3 p-md-5 m-md-3 bg-light">
+      <div class="d-grid">
+        <input
+          type="button"
+          class="btn btn-dark btn-lg btn-block"
+          value="Predict!!"
+        />
+      </div>
+    </div>
+    <!-- End -->
+
+    <!-- Bootstrap w/ Propper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<!-- <div class="container-fluid banner">
+      <div class="conteiner px-xl-5">
+        <div class="row g-30">
+          <div class="col-8 offset-2">
+            <img src="assets/img/Title.png" alt="" class="img-fluid float" />
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+              voluptate laudantium mollitia numquam, enim tempore eveniet
+              deserunt illo doloribus atque in id iure, a quisquam ducimus sequi
+              nemo aut vero.
+            </p>
+          </div>
+        </div>
+        <div class="row g-5 p-md-4">
+          <div class="col-4 offset-5">
+            <div class="text-start">
+              <a
+                href="#start"
+                class="btn btn-outline-dark btn-lg"
+                role="button"
+                aria-pressed="true"
+                >Try It. &nbsp &nbsp<i class="bi bi-arrow-return-left"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
