@@ -92,11 +92,32 @@
           <input
             class="range-slider__range"
             type="range"
+            id="time"
+            value="3"
+            min="1"
+            max="12"
+            oninput="document.getElementById('pTime').innerHTML = this.value"
+          />
+          <!-- ambil disini na -->
+          <label
+            id="pTime"
+            class="range-slider__value"
+            style="padding-left: 20px"
+          >
+          </label>
+
+          <!-- <input
+            class="range-slider__range"
+            type="range"
             value="1"
             min="1"
             max="12"
-          />
-          <span class="range-slider__value">0 </span>
+          /> -->
+
+          <div class="d-flex justify-content-between">
+            <small class="text-muted">1 month</small>
+            <small class="text-muted">12 month</small>
+          </div>
         </div>
       </div>
     </div>
